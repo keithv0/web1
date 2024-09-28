@@ -1,15 +1,28 @@
 // burger
-
 const hamburger=document.querySelector('#burger');
-const navMenu=document.querySelector('#nav-list')
+const navMenu=document.querySelector('#nav-list');
 
-hamburger.addEventListener('mouseenter',()=>{
+hamburger.addEventListener('click',()=>{
     hamburger.classList.toggle('hamburger-active')
+    navMenu.classList.toggle('hidden')
 })
-hamburger.addEventListener('mouseleave',function(){
-    hamburger.classList.toggle('hamburger-active')
+
+// Header
+header=document.querySelector('header')
+divHeader=document.querySelector('.div-container-header')
+halalaman1=document.querySelector('#home')
+atas=0;
+
+window.addEventListener('scroll',function(){
+    //posisi user
+    posisiScroll=window.scrollY 
+    // tinggi hal 1
+    tinggiHal1=halalaman1.offsetHeight;
+
+    //header ketika melebihi halaman 1
+    if(posisiScroll>tinggiHal1){
+        header.classList.add('bg-header')
+    }else{
+        header.classList.remove('bg-header')
+    }
 })
-// hamburger.addEventListener('mouseover',function(){
-//     hamburger.classList.toggle('hamburger-active')
-//     hamburger.classList.toggle('hidden')
-// })
