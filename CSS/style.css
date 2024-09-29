@@ -1537,7 +1537,7 @@ body{
     }
     .container3-teks{
         /* border: 1px solid navajowhite; */
-        /* padding-inline: 10px; */
+        padding-inline: 10px;
         width: 50%;
         /* order: 2; */
         margin-top: 0;
