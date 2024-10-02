@@ -101,7 +101,7 @@ body{
 .halaman1{
     height: 100vh;
     background-color: #07395f;
-    background-image: url(/assets/img/foto3.jpg);
+    background-image: url(/assets/img/produk/foto3.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
