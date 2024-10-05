@@ -423,3 +423,403 @@ body{
     border-bottom: none;
     color: navy;
  }
+
+
+
+ @media screen and (max-width:1300px){
+    .nav-container-header{
+        background-color: #154c75;
+    }
+ }
+
+ 
+
+/* max 600  */ 
+@media screen and (max-width: 600px) {
+    /* Header */
+    .nav-container-header{
+        background-color: #555300;
+    }
+    .div-container-header{
+        margin-inline: 40px;
+        /* border: 1px solid yellow; */
+    }
+
+    .hidden{
+        /* dibuat hanya untuk hidden visibility */
+        visibility: hidden;
+    }
+    #nav-list{
+        display: block;
+        position: absolute;
+        /* border: 1px solid yellow; */
+        /* background-color: #07395f; */
+        right: 40px;
+        top: 70px;
+    }
+    #nav-list li{
+        /* border: 1px solid yellow; */
+        padding-block: 10px;
+        padding-inline: 30px;
+    }
+    #nav-list li a{
+        /* border: 1px solid whitesmoke; */
+        font-size: medium;
+    }
+    #nav-logo{
+        padding: 5px;
+        /* margin-left: 30px; */
+    }
+    #nav-logo img{
+        width: 50px;
+    }
+    .burger-btn{
+        visibility: visible;
+        /* border: 1px solid red; */
+        display: block;
+        /* margin-right: 0; */
+        right: 40px;
+    }
+    /* Halaman 1 */
+    .halaman1{
+        /* border: 2px solid red; */
+        height: 100vh;
+    }
+    .teks-halaman1{
+        margin-inline: 40px;
+        /* border: 1px solid red; */
+        top: 300px;
+        padding: 10px;
+    }
+    .isi-teks-hal1{
+        /* border: 1px solid navy; */
+        width: 100%;
+        padding: 0;
+        
+    }
+    .isi-teks-hal1 p{
+        font-size: 20px;
+    }
+    /* halaman 2 */
+    .halaman2{
+        /* border: 2px solid red; */
+        /* display: flex; */
+        flex-wrap: wrap;
+        padding-inline: 50px;
+        padding-top: 150px;
+        height: 140vh;
+    }
+    .container-hal2{
+        /* border: 1px solid rgb(255, 63, 63); */
+        flex-wrap: wrap;
+        /* margin-top: 100px; */
+    }
+    .teks-tentang{
+        width: 100%;
+        /* border: 1px solid navy; */
+        order: 2;
+        margin-top: 40px;
+    }
+    #article p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    #asside{
+        width: 100%;
+        padding: 0;
+        /* border: 1px solid red; */
+    }
+    .gambar-asside{
+        /* border: 1px solid navy; */
+        margin-top: 0;
+        overflow: hidden;
+        width: 100%;
+    }
+    .gambar-asside img{
+        width: 100%;
+        height: 300px;/
+    }
+    .link-tentang{
+        /* border: 1px solid red; */
+        margin-top: 60px;
+    }
+    .link-tentang a{
+        margin-top: 0;
+    }
+    /* halaman 3 */
+    .halaman3{
+        padding-inline: 40px;
+        padding-top: 8rem;
+        height: 90vh;
+    }
+    .container3-div{
+        /* border: 1px solid red; */
+        flex-wrap: wrap
+    }
+    .container3-teks{
+        /* border: 1px solid navajowhite; */
+        padding: 0 20px;
+        width: 100%;
+        font-size: smaller;
+        order: 2;
+        margin-top: 30px;
+    }
+    .container3-teks h2{
+        /* border: 1px solid red; */
+        font-size: 22px;
+    }
+    .container3-gambar{
+        /* border: 1px solid yellow; */
+        width: 100%;
+    }
+    .container3-gambar img{
+        width: 30%;
+        height: 100px;
+        /* border: 1px solid red; */
+    }
+    /* Halaman 4 */
+    .halaman4{
+        padding-inline: 50px;
+        height: 170vh;
+        padding-top: 6rem;
+        /* border: 3px solid navy; */
+    }
+    .isi-container4{
+        /* border: 1px solid navy; */
+        padding-top: 0px;
+    }
+    .article-container4{
+        flex-wrap: wrap;
+        /* border: 1px solid red; */
+    }
+    .card{
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    /* footer */
+    .footer{
+        /* border: 1px solid red; */
+        height: 70vh;
+    }
+    .container-footer{
+        /* border: 2px solid blueviolet; */
+        border-radius: 40px 40px 0 0;
+        height: 100%;
+        padding: 40px 20px;
+    }
+    .isi-footer{
+        /* border: 1px solid red; */
+        background-color: #034147;
+        border-radius: 20px;
+        box-shadow: 2px 2px 5px #01373dcc;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .logo-kiri{
+        /* border: 1px solid yellow; */
+        width: 100%;
+    }
+    .contact-tengah{
+        /* border: 1px solid navy; */
+        width: 100%;
+    }
+    .navigat-kanan{
+        width: 100%;
+    }
+    /* #copyright{
+        border: 1px solid yellow;
+    } */
+}
+
+ /* max 512 */
+ @media screen and (max-width: 412px) {
+
+    /* Header */
+    .nav-container-header{
+        background-color: #0a6f88;
+    }
+    .div-container-header{
+        margin-inline: 20px;
+        /* border: 1px solid yellow; */
+    }
+
+    .hidden{
+        /* dibuat hanya untuk hidden visibility */
+        visibility: hidden;
+    }
+    #nav-list{
+        display: block;
+        position: absolute;
+        border: 1px solid yellow;
+        /* background-color: #07395f; */
+        right: 40px;
+        top: 70px;
+    }
+    #nav-list li{
+        /* border: 1px solid yellow; */
+        padding-block: 10px;
+        padding-inline: 30px;
+        /* visibility: hidden; */
+    }
+    #nav-list li a{
+        /* border: 1px solid whitesmoke; */
+        font-size: medium;
+
+    }
+    #nav-logo{
+        padding: 5px;
+        /* margin-left: 30px; */
+    }
+    #nav-logo img{
+        width: 50px;
+    }
+    .burger-btn{
+        visibility: visible;
+        /* border: 1px solid red; */
+        display: block;
+        /* margin-right: 0; */
+        right: 20px;
+    }
+    /* Halaman 1 */
+    .halaman1{
+        /* border: 2px solid red; */
+        height: 100vh;
+    }
+    .teks-halaman1{
+        margin-inline: 40px;
+        /* border: 1px solid red; */
+        top: 200px;
+        /* padding: 10px; */
+    }
+    .isi-teks-hal1{
+        /* border: 1px solid navy; */
+        width: 100%;
+        padding: 0;
+        
+    }
+    /* halaman 2 */
+    .halaman2{
+        /* border: 2px solid red; */
+        /* display: flex; */
+        flex-wrap: wrap;
+        padding-inline: 40px;
+        /* padding-block: 50px; */
+        height: 150vh;
+    }
+    .container-hal2{
+        /* border: 1px solid rgb(255, 63, 63); */
+        flex-wrap: wrap;
+    }
+    .teks-tentang{
+        width: 100%;
+        /* border: 1px solid navy; */
+        order: 2;
+        margin-top: 30px;
+    }
+    #asside{
+        width: 100%;
+        padding: 0;
+        /* border: 1px solid red; */
+    }
+    .gambar-asside{
+        /* border: 1px solid navy; */
+        margin-top: 0;
+        overflow: hidden;
+        width: 100%;
+    }
+    .gambar-asside img{
+        width: 100%;
+        height: 300px;/
+    }
+    .link-tentang{
+        /* border: 1px solid red; */
+        margin-top: 60px;
+    }
+    .link-tentang a{
+        margin-top: 0;
+    }
+    /* halaman 3 */
+    .halaman3{
+        padding-inline: 40px;
+        padding-top: 130px;
+        height: 110vh;
+    }
+    .container3-div{
+        /* border: 1px solid red; */
+        flex-wrap: wrap
+    }
+    .container3-teks{
+        /* border: 1px solid navajowhite; */
+        padding: 0;
+        width: 100%;
+        font-size: smaller;
+        order: 2;
+        margin-top: 30px;
+    }
+    .container3-teks h2{
+        /* border: 1px solid red; */
+        font-size: 18px;
+    }
+    .container3-gambar{
+        /* border: 1px solid yellow; */
+        width: 100%;
+    }
+    .container3-gambar img{
+        width: 100px;
+        height: 100px;
+        /* border: 1px solid red; */
+    }
+    /* Halaman 4 */
+    .halaman4{
+        padding-inline: 40px;
+        height: 210vh;
+        padding-block: 20px;
+        /* border: 3px solid navy; */
+    }
+    .isi-container4{
+        /* border: 1px solid navy; */
+        padding-inline: 0;
+    }
+    .article-container4{
+        flex-wrap: wrap;
+        /* border: 1px solid red; */
+    }
+    .card{
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    /* footer */
+    .footer{
+        /* border: 1px solid red; */
+        height: 85vh;
+    }
+    .container-footer{
+        /* border: 3px solid blueviolet; */
+        border-radius: 40px 40px 0 0;
+        height: 100%;
+        padding: 20px;
+    }
+    .isi-footer{
+        /* border: 1px solid red; */
+        flex-wrap: wrap;
+    }
+    .logo-kiri{
+        /* border: 1px solid yellow; */
+        width: 100%;
+    }
+    .contact-tengah{
+        /* border: 1px solid navy; */
+        width: 100%;
+    }
+    .navigat-kanan{
+        width: 100%;
+    }
+    /* #copyright{
+        border: 1px solid yellow;
+    } */
+}
+
+
+
+
+
